@@ -13,7 +13,8 @@ ul {
 }
 
 ol[role="list"],
-ul[role="list"] {
+ul[role="list"],
+li {
     list-style: none;
     padding-inline: 0;
 }
@@ -30,6 +31,10 @@ h5 {
 img {
     display: block;
     max-inline-size: 100%;
+}
+
+a {
+    text-decoration: none;
 }
 
 // :root {
